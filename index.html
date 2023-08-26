@@ -1,0 +1,191 @@
+
+<!doctype html>
+<html>
+
+<head>
+<title>Kunyang Zhou</title>
+
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="keywords" content="Kunyang Zhou"> 
+<meta name="description" content="Kunyang Zhou's home page">
+<link rel="stylesheet" href="css/jemdoc.css" type="text/css" />
+<!-- <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css"> -->
+<!-- <link href="assets/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css"> -->
+
+<script>
+   function showPubs(id) {
+  if (id == 0) {
+    document.getElementById('pubs').innerHTML = document.getElementById('pubs_selected').innerHTML;
+    document.getElementById('select0').style = 'text-decoration:underline;color:#000000';
+    document.getElementById('select1').style = '';
+  } else {
+    document.getElementById('pubs').innerHTML = document.getElementById('pubs_by_topic').innerHTML;
+    document.getElementById('select1').style = 'text-decoration:underline;color:#000000';
+    document.getElementById('select0').style = '';
+  }
+}
+
+</script>
+
+</head>
+
+
+<body>
+
+<div id="layout-content" style="margin-top:25px">
+
+
+<table>
+	<tbody>
+		<tr>
+			<td width="75%">
+				<div id="toptitle">
+					<h1>Kunyang Zhou 周昆阳<h1>
+				</div>
+
+                <h3>M.S. Student</h3>
+
+		<p>
+                    School of Automation</br>
+                    Southeast University </br>
+					</br>
+                    Email: kunyangzhou@seu.edu.cn </br>
+		</p>
+		<p>
+			<a href="https://github.com/zkyseu"><img src="assets/logos/github_logo.png" height="30px"></a>&nbsp;&nbsp;
+			<a href="https://scholar.google.com/citations?user=oczy4vMAAAAJ&hl=zh-CN&oi=sra"><img src="assets/logos/google_logo.png" height="30px"></a>&nbsp;&nbsp;
+		</p>
+			</td>
+
+			</td>
+			<td width="25%">
+				<img src="assets/imgs/IMG_0009.JPG" width="100%"/>
+			</td>
+		<tr>
+	</tbody>
+</table>
+
+
+<h2>Biography</h2> 
+
+<p>
+I am a second-year (2020-now) M.s. student in School of Automation, Southeast University, advised by Prof. <a href="https://automation.seu.edu.cn/lj/list.htm">Jun Li</a>. My research interest is computer vision and deep learning.
+<p>
+I obtained my bachelor degree from School of ZhangJian, Nantong University, supervised by Associate Prof. <a href="https://zjxy.ntu.edu.cn/2020/0620/c2206a145648/page.htm">Yeqin Shao</a>. 
+</p>
+
+
+<p id="publications">
+<h2>Publications
+    (<a href="" id="select0" onclick="showPubs(0); return false;">show selected</a> /
+     <a href="" id="select1" onclick="showPubs(1); return false;">show all</a>)
+</h2>
+</p>
+
+
+<div id="pubs"></div>
+<script id="pubs_selected">
+<!-- <ul>     -->
+    <div class="paper" style="clear:left;">
+      <div class="pimg" style="float:left;margin-bottom:10px;padding-left:3px;border-bottom:solid 1px #EEE;box-shadow:0 0px 2px">
+          <img src="assets/imgs/pape1.png" width="200" >
+      </div>
+      <div class="ptitle" style="padding:1px;margin-left:215px;">
+          End-to-End Lane detection with One-to-Several Transformer
+      </div>
+      <div class="pauthors" style="padding:1px;margin-left:215px;">
+          <b>Kunyang Zhou</b>, Rui Zhou
+      </div>
+      <div class="pvenue" style="padding:1px;margin-left:215px;">
+          arxiv:2305.00675
+          <p>
+          [<a href="https://arxiv.org/pdf/2305.00675.pdf" target="_blank" rel="noopener">paper</a>]
+          [<a href="https://github.com/zkyseu/O2SFormer" target="_blank" rel="noopener">code</a>] 
+          </p>
+      </div>
+    </div>
+           
+           
+    <div class="paper" style="clear:left;">
+      <div class="pimg" style="float:left;margin-bottom:10px;padding-left:3px;border-bottom:solid 1px #EEE;box-shadow:0 0px 2px">
+          <img src="assets/imgs/paper2.png" width="200" >
+      </div>
+      <div class="ptitle" style="padding:1px;margin-left:215px;">
+        Incremental Learning-based Lane Detection for Automated Rubber-Tired Gantries in Container Terminal
+      </div>
+      <div class="pauthors" style="padding:1px;margin-left:215px;">
+          Yunjian Feng, <b>Kunyang Zhou</b>, Jun Li, Mengchu Zhou
+      </div>
+      <div class="pvenue" style="padding:1px;margin-left:215px;">
+          IEEE Transactions on Circuits and Systems for Video Technology(paper coming soon)
+      </div>
+    </div>
+
+<!-- </ul> -->
+</script>
+
+<script id="pubs_by_topic">
+<h3>2023:</h3>
+<ul>
+    <li>
+        Incremental Learning-based Lane Detection for Automated Rubber-Tired Gantries in Container Terminal(paper coming soon)</br>
+        Yunjian Feng, <b>Kunyang Zhou</b>, Jun Li, Mengchu Zhou</br>
+        IEEE Transactions on Circuits and Systems for Video Technology (<b>T-CSVT</b>), 2023 </br>      
+        <p></p>
+    </li>
+                                                     
+    <li>
+        End-to-End Lane detection with One-to-Several Transformer</br>
+        <b>Kunyang Zhou</b>, Rui Zhou</br>
+        arxiv:2305.00675</br>
+        [<a href="https://arxiv.org/pdf/2305.00675.pdf">arXiv</a>]
+        [<a href="https://github.com/zkyseu/O2SFormer">code</a>]
+        <p></p>
+    </li>
+ 
+</ul>
+
+</script>
+
+<script>showPubs(0);</script>
+<script>var scroll = new SmoothScroll('a[href*="#"]', {speed: 1000});</script>
+
+
+<h2>Honors</h2>
+
+<ul>
+    <li>
+        Baidu PPDE, 2022
+    </li>
+    <li>
+        Second-class Recommended Undergraduate Scholarship, 2020
+    </li>
+    <li>
+        First-class Recommended Undergraduate Scholarship, 2019
+    </li>
+</ul>
+
+
+<h2>Academic Service</h2>
+
+<ul>
+    <li>
+        Journal Review:</br>
+	Transactions on Intelligent Transportation Systems</br>
+    Transactions on Circuits and Systems for Video Technology</br>
+    </li>
+</ul>
+
+<table width="100%"> 
+	<tr> 
+		<td align="center">&copy; Kunyang Zhou | Last update: July 2023</td>
+	</tr> 
+</table>
+
+</div>
+
+
+</body>
+
+</html>
+
