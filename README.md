@@ -1,2 +1,2 @@
-# peizesun.github.io
+# kuyangzhou.github.io
 personal website
